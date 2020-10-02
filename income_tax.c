@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
 
-float tax,income;
+int tax,income;
 printf("Enter your income\n");
-scanf("%f",&income);
+scanf("%d",&income);
 
 if(income>=25000 && income<=50000)
 {
@@ -17,5 +17,8 @@ if(income>=100000 ){
     tax= 0.30*(income-100000);
 }
 printf("Your tax to be paid is %f",tax);
+
+    printf("Thank u\n");
+    
     return 0;
 }
